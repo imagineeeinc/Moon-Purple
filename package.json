@@ -1,0 +1,24 @@
+{
+    "name": "moon-purple",
+    "displayName": "Moon Purple",
+    "description": "multiple shades of purple with a hint of rust",
+    "version": "1.0.1",
+    "publisher": "imagineee",
+    "repository": "https://github.com/imagineeeinc/Moon-Purple",
+    "icon": "moon.png",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Moon Purple",
+                "uiTheme": "vs-dark",
+                "path": "./themes/moon-purple-color-theme.json"
+            }
+        ]
+    }
+}
